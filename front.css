@@ -1,0 +1,108 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f5e9ff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Navigation Bar */
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background-color: transparent;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4b0082;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-links a {
+  margin-left: 25px;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a855f7;
+}
+
+/* Main Section */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-image: url('illustration.png'); /* Optional: replace with actual illustration */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.track-btn {
+  padding: 12px 25px;
+  background-color: #cfb3b3;
+;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.track-btn:hover {
+  background-color: #d63031;
+}
+
+/* Footer */
+footer {
+  background-color: #d1b3ff;
+  padding: 15px;
+  font-size: 14px;
+  color: #333;
+}
